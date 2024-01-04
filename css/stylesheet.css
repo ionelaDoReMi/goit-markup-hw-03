@@ -16,6 +16,15 @@
     --hover-focus-navigation-menu: #404bbf;
 }
 
+.display-flex {
+    display: flex;
+}
+
+.global-padding {
+    padding-right: 156px;
+    padding-left: 156px;
+}
+
 
 /*Global styles*/
 
@@ -25,20 +34,18 @@ body {
     background-color: #FFFFFF;
 }
 
-
 ul {
     list-style-type: none;
 }
+
 .link {
     text-decoration: none;
     color: var(--dark-color-paragrapf);
 }
 
-
 a {
     text-decoration: none;
 }
-
 
 h2 {
     color: var(--dark-color-header-and-background);
@@ -69,6 +76,7 @@ p {
 .top-line {
     background-color: var(--light-color-header);
     border: var(--light-color-borders);
+    justify-content: space-between;
 }
 
 
@@ -151,6 +159,7 @@ p {
 /* Section 1 */
 .hero-content {
     background-color: var(--dark-color-header-and-background);
+    width: 1440px;
 }
     /* Title */
 
@@ -174,6 +183,8 @@ p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 
@@ -192,6 +203,7 @@ p {
 .paragraph-features {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 0;
 }
 
 /* Section 3 */
@@ -210,7 +222,8 @@ p {
 }
 
 .our-team {
-    background-color: var(--light-color-logo-and-description)
+    background-color: var(--light-color-logo-and-description);
+    padding: 120px 156px;
 }
 
 .title-our-team {
@@ -266,6 +279,12 @@ p {
     
 
 /* Portfolio Cards */
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin: 24px;
+    }
 
     .cards-title {
         color: var(--dark-color-header-and-background);
