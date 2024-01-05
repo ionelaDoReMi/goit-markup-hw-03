@@ -23,9 +23,10 @@
     display: flex;
 }
 
-.global-padding {
-    padding-right: 156px;
-    padding-left: 156px;
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 * {
@@ -74,6 +75,10 @@ h3 {
     letter-spacing: 0.02em;
 }
 
+.visually-hidden {
+    overflow: hidden;
+}
+
 p {
     color: var(--dark-color-paragrapf);
     font-size: 16px;
@@ -84,10 +89,15 @@ p {
 
 /* Top Line */
 
+.navigation {
+    align-items: center   
+}
+
 .top-line {
     background-color: var(--light-color-header);
     border: var(--light-color-borders);
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -101,6 +111,7 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-link-second-part-header {
@@ -127,12 +138,17 @@ p {
 }
 
 .navigation-menu {
+    gap: 40px;
+}
+
+.navigation-menu-option {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--dark-color-header-and-background);
+    padding: 24px 0;
 }
 
 .navigation-menu:hover,
@@ -150,7 +166,9 @@ p {
     line-height: 1.5;
     font-style: normal;
     color: var(--dark-color-paragrapf);
+    gap: 40px;
 }
+
 
 .contacts-links {
     background-color: var(--body-font-family);
@@ -171,6 +189,7 @@ p {
 .hero-content {
     background-color: var(--dark-color-header-and-background);
     width: 1440px;
+    padding: 188px 0;
 }
     /* Title */
 
@@ -181,6 +200,7 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     font-weight: 700;
+    max-width: 496px;
 }
 
     /* Order Button */
@@ -196,6 +216,12 @@ p {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
 }
 
 
@@ -206,9 +232,20 @@ p {
 
 /* Section 2 */
 
+.section-features {
+    padding: 120px 0;
+
+}
+
+.feature-list {
+    gap: 24px;
+}
+
 .title-features {
     line-height: 1.2;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
 
 .paragraph-features {
