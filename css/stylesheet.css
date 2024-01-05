@@ -1,8 +1,3 @@
-*,
-*::before
-*::after {
-    box-sizing: border-box;
-}
 
 :root {
     --logo-font-family: 'Raleway', sans-serif;
@@ -16,6 +11,12 @@
     --hover-focus-navigation-menu: #404bbf;
 }
 
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
 .display-flex {
     display: flex;
 }
@@ -25,6 +26,9 @@
     padding-left: 156px;
 }
 
+* {
+    margin: 0;
+}
 
 /*Global styles*/
 
