@@ -11,6 +11,8 @@
     --hover-focus-navigation-menu: #404bbf;
 }
 
+/*Global styles*/
+
 *,
 *::before
 *::after {
@@ -30,7 +32,12 @@
     margin: 0;
 }
 
-/*Global styles*/
+img {
+    display: block;
+}
+
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
