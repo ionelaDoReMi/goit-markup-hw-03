@@ -255,6 +255,20 @@ p {
 }
 
 /* Section 3 */
+
+.our-team {
+    padding-bottom: 120px;
+}
+
+.services-list {
+    display: flex;
+    gap: 24px;
+}
+
+.services-option {
+    width: calc((100% - 48px) / 3);
+}
+
 .title-studio {
     font-size: 36px;
     line-height: 1.11;
@@ -262,6 +276,7 @@ p {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 /* Section 4 */
@@ -276,10 +291,28 @@ p {
 
 .title-our-team {
     background-color: #FFFFFF;
+    margin-bottom: 72px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-option {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-name {
+    padding: 32px 0;
 }
 
 .paragraph-our-team {
     font-size: 16px;
+    text-align: center;
 }
 
 .centered-text {
