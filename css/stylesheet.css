@@ -451,7 +451,6 @@ p {
         font-weight: 500;
         letter-spacing: 0.02em;
         line-height: 1.2;
-        margin-bottom: 8px;
     }
 
     .cards-paragraph {
@@ -462,3 +461,6 @@ p {
         line-height: 1.5;
     }
 
+    .cards-images-container .title {
+        margin-bottom: 8px;
+    }
