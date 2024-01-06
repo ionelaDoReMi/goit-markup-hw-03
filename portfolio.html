@@ -42,94 +42,116 @@
 
     <main>
         <!--Section Portfolio-->
-        <section class="portfolio container">
-            <h1 hidden>Portfolio</h1>
-             <!--Portfolio Filters-->
-            <ul class="list display-flex">
-                <li ><button type="button" class="portfolio-filters">All</button></li>
-                <li><button type="button" class="portfolio-filters">Web Site</button></li>
-                <li><button type="button" class="portfolio-filters">App</button></li>
-                <li><button type="button" class="portfolio-filters">Design</button></li>
-                <li><button type="button" class="portfolio-filters">Marketing</button></li>
-            </ul>
-            <!--Portfolio Cards-->
+        <section class="portfolio">
+            <div class="container">
+                <h1 class="visually-hidden">Portfolio</h1>
+                <!--Portfolio Filters-->
+                <ul class="list filter-list">
+                    <li ><button type="button" class="portfolio-filters">All</button></li>
+                    <li><button type="button" class="portfolio-filters">Web Site</button></li>
+                    <li><button type="button" class="portfolio-filters">App</button></li>
+                    <li><button type="button" class="portfolio-filters">Design</button></li>
+                    <li><button type="button" class="portfolio-filters">Marketing</button></li>
+                </ul>
+                <!--Portfolio Cards-->
                     <ul class="cards list">
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/bankingapp.jpg" alt="Banking App Interface Concept" width="360">   
-                                <h3 class="title cards-title">Banking App Interface Concept</h3>
-                                <p class="cards-paragraph">App</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Banking App Interface Concept</h3>
+                                    <p class="cards-paragraph">App</p>
+                                </div>
                             </a> 
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/cashlesspay.jpg" alt="Cashless Payment" width="360">
-                                <h3 class="title cards-title">Cashless Payment</h3>
-                                <p class="cards-paragraph">Marketing</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Cashless Payment</h3>
+                                    <p class="cards-paragraph">Marketing</p>
+                                </div>
                             </a> 
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/meditationapp.jpg" alt="Meditation App" width="360">   
-                                <h3 class="title cards-title">Meditation App</h3>
-                                <p class="cards-paragraph">App</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Meditation App</h3>
+                                    <p class="cards-paragraph">App</p>
+                                </div>
                             </a> 
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/taxi.jpg" alt="Taxi Service" width="360">
-                                <h3 class="title cards-title">Taxi Service</h3>
-                                <p class="cards-paragraph">Marketing</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Taxi Service</h3>
+                                    <p class="cards-paragraph">Marketing</p>
+                                </div>
                             </a>    
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/screenillustration.jpg" alt="Screen Illustrations" width="360">
-                                <h3 class="title cards-title">Screen Illustrations</h3>
-                                <p class="cards-paragraph">Design</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Screen Illustrations</h3>
+                                    <p class="cards-paragraph">Design</p>
+                                </div>
                             </a>    
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/onlinecouses.jpg" alt="Online Courses"  width="360">
-                                <h3 class="title cards-title">Online Courses</h3>
-                                <p class="cards-paragraph">Marketing</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Online Courses</h3>
+                                    <p class="cards-paragraph">Marketing</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/instagramstories.jpg" alt="Instagram Stories Concept" width="360">
-                                <h3 class="title cards-title">Instagram Stories Concept</h3>
-                                <p class="cards-paragraph">Design</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Instagram Stories Concept</h3>
+                                    <p class="cards-paragraph">Design</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/organicfood.jpg" alt="Organic Food" width="360">
-                                <h3 class="title cards-title">Organic Food</h3>
-                                <p class="cards-paragraph">Web Site</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Organic Food</h3>
+                                    <p class="cards-paragraph">Web Site</p>
+                                </div>
                             </a>
                         </li>
-                        <li>
+                        <li class="cards-option">
                             <a href="" class="link">
                                 <img class="cards-images" src="./images/freshcoffee.jpg" alt="Fresh Coffee" width="360">
-                                <h3 class="title cards-title">Fresh Coffee</h3>
-                                <p class="cards-paragraph">Web Site</p>
+                                <div class="cards-images-container">
+                                    <h3 class="title cards-title">Fresh Coffee</h3>
+                                    <p class="cards-paragraph">Web Site</p>
+                                </div>
                             </a>
                         </li>
                     </ul>
+            </div>
         </section>
     </main>
 
 
         <!--Footer-->
-        <footer class="footer ...">
-            <!--Logo-->
-            <a class="logo-link link" href="./index.html">web<span class="logo-link-second-part-footer">Studio</span></a>
-            <!--Description-->
-            <p class="bussines-description">
-            Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.
-            </p>
+        <footer class="footer">
+            <div class="container">
+                <!--Logo-->
+                <a class="logo-link link" href="./index.html">web<span class="logo-link-second-part-footer">Studio</span></a>
+                <!--Description-->
+                <p class="bussines-description">
+                Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.
+                </p>
+            </div>
         </footer>
 </body>
 </html>

@@ -112,6 +112,8 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-link-second-part-header {
@@ -322,7 +324,11 @@ p {
 /* Footer */
 .footer {
     background-color: var(--dark-color-header-and-background);
+    padding: 100px 0;
+
 }
+
+
 
 /* Business Description */
 .bussines-description {
@@ -332,12 +338,27 @@ p {
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    max-width: 264px;
 }
 
 
 /* Sections Portfolio*/
 
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 /* Portfolio Filters */
+
+    
+    .filter-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+
     .portfolio-filters {
         border: 1px solid var(--light-color-footer-and-borders);
         text-align: center;
@@ -351,20 +372,40 @@ p {
         letter-spacing: 0.04em;
         text-align: center;
         line-height: 1.5;
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
     }
+
     .portfolio-filters:hover,
     .portfolio-filters:focus{
         color:  #FFFFFFFF;
         background-color: #404BBF;
+        border: 1px solid transparent;
     }
     
 
 /* Portfolio Cards */
+
     .cards {
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
         margin: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+    }
+
+    .cards-option {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .cards-images-container {
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px;
     }
 
     .cards-title {
