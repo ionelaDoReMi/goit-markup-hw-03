@@ -76,7 +76,14 @@ h3 {
 }
 
 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
     overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 p {
@@ -88,6 +95,10 @@ p {
 }
 
 /* Top Line */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .navigation {
     align-items: center   
@@ -406,6 +417,7 @@ p {
         border: 1px solid #e7e9fc;
         border-top: none;
         margin-bottom: 8px;
+        padding: 32px 16px;
     }
 
     .cards-title {
@@ -414,6 +426,7 @@ p {
         font-weight: 500;
         letter-spacing: 0.02em;
         line-height: 1.2;
+        margin-bottom: 8px;
     }
 
     .cards-paragraph {
