@@ -179,9 +179,11 @@ p {
     line-height: 1.5;
     font-style: normal;
     color: var(--dark-color-paragrapf);
-    gap: 40px;
 }
 
+.contact-list-gap {
+    gap: 40px;
+}
 
 .contacts-links {
     background-color: var(--body-font-family);
@@ -250,14 +252,17 @@ p {
 
 }
 
-.feature-list {
+.features-list {
     gap: 24px;
+}
+
+.features-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .title-features {
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 
@@ -268,6 +273,10 @@ p {
 }
 
 /* Section 3 */
+
+.section-services {
+    padding-bottom: 120px;
+}
 
 .our-team {
     padding-bottom: 120px;
@@ -293,6 +302,10 @@ p {
 }
 
 /* Section 4 */
+
+.section-our-team {
+    padding: 120px 0;
+}
 .background-white {
     background-color: #FFFFFF;
 }
