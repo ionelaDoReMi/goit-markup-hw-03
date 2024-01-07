@@ -439,7 +439,7 @@ p {
     }
 
     .cards-option {
-        width: calc((100% - 48px) / 3);
+        flex-basis: calc((100% - 48px) / 3);
     }
 
     .cards-images-container {
