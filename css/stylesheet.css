@@ -432,7 +432,6 @@ p {
         gap: 24px;
         margin: 24px;
         display: flex;
-        flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
         flex-wrap: wrap;
