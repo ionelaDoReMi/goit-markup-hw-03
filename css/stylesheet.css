@@ -275,7 +275,7 @@ p {
 }
 
 .features-list-item {
-    width: 100;
+    width: 100%;
     min-width: 264px;
 }
 
@@ -438,7 +438,8 @@ p {
     }
 
     .cards-option {
-        width: calc((100% - 48px) / 3);
+        width: 100%;
+        max-width: 360px;
     }
 
     .cards-images-container {
