@@ -28,10 +28,6 @@
     margin: 0 auto;
 }
 
-* {
-    margin: 0;
-}
-
 img {
     display: block;
 }
@@ -437,7 +433,7 @@ p {
     }
 
     .cards-option {
-        width: calc(100% - 48px) / 2;
+        width: calc(100% - 48px) / 3;
     }
 
     .cards-images-container {
