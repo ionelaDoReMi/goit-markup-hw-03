@@ -362,7 +362,7 @@ p {
 .footer {
     background-color: var(--dark-color-header-and-background);
     padding: 100px 0;
-
+    margin-bottom: 16px
 }
 
 
