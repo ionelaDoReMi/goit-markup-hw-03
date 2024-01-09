@@ -140,7 +140,7 @@ p {
     color: var(--dark-color-header-and-background);
     font-family: var(--logo-font-family);
     font-size: 18px;
-    font-contact-linksweight: 800;
+    font-weight: 800;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 24px 0;
