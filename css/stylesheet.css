@@ -12,6 +12,12 @@
 
 /*Global styles*/
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 *,
 *::before
 *::after {
@@ -28,12 +34,6 @@
     margin: 0 auto;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
 
 img {
     display: block;
@@ -139,9 +139,10 @@ p {
     color: var(--dark-color-header-and-background);
     font-family: var(--logo-font-family);
     font-size: 18px;
-    font-weight: 800;
+    font-contact-linksweight: 800;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 24px 0;
 }
 
 .logo-link-second-part-footer {
@@ -176,6 +177,7 @@ p {
     line-height: 1.5;
     color: var(--dark-color-header-and-background);
     padding: 24px 0;
+    display: inline-block;
 }
 
 .navigation-menu:hover,
@@ -198,11 +200,13 @@ p {
 .contact-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
 }
 
 .contacts-links {
     background-color: var(--body-font-family);
     color: var(--dark-color-paragrapf);
+    padding: 24px 0;
 }
 
 .contact-links:hover,
@@ -218,7 +222,6 @@ p {
 /* Section 1 */
 .hero-content {
     background-color: var(--dark-color-header-and-background);
-    width: 1440px;
     padding: 188px 0;
 }
     /* Title */
